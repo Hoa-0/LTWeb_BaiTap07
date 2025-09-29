@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{admin/layout_admin}">
+<div layout:fragment="content">
+	<h2>Trang Quản Lý Danh Mục - Index</h2>
+	<a th:href="@{/admin/categories/list}" class="btn btn-primary">Xem
+		Danh Sách</a> <a th:href="@{/admin/categories/addOrEdit}"
+		class="btn btn-success">Thêm Mới</a> <a
+		th:href="@{/admin/categories/search?keyword=}" class="btn btn-info">Tìm
+		Kiếm</a>
+</div>
+</html>

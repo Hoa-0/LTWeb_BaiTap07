@@ -1,0 +1,21 @@
+{
+  "groups": [
+    {
+      "name": "storage",
+      "type": "vn.iotstar.config.StorageProperties",
+      "sourceType": "vn.iotstar.config.StorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "storage.location",
+      "type": "java.lang.String",
+      "description": "Folder location for storing files",
+      "sourceType": "vn.iotstar.config.StorageProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
